@@ -1,0 +1,19 @@
+.header{
+  background-color: var(--gray-800);
+  color: aliceblue;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+.header img{
+  height: 2rem;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}
