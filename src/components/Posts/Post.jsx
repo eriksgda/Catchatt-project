@@ -1,3 +1,4 @@
+import { Avatar } from '../Avatar/Avatar'
 import { Comments } from '../Comments/Comments'
 import s from './Post.module.css'
 
@@ -6,14 +7,14 @@ export function Post(){
     <article className={s.post}>
       <header>
         <div className={s.author}>
-          <img className={s.avatar} src="https://i.pinimg.com/236x/97/af/77/97af774d991d6851e0d6b98e810b93b7.jpg"/>
+          <Avatar src="https://i.pinimg.com/236x/97/af/77/97af774d991d6851e0d6b98e810b93b7.jpg"/>
           <div className={s.authorInfo}>
             <strong>Sr Miau Meow</strong>
             <span>Gato Fuxiqueiro</span>
           </div>
 
         </div>
-        <time title='24 de maio de 2024' datetime="2024-05-24  08:08:57">Publicada há 1h</time>
+        <time title='24 de maio de 2024'>Publicada há 1h</time>
       </header>
 
       <div className={s.content}>
