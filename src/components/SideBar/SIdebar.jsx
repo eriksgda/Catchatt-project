@@ -17,7 +17,7 @@ export function Sidebar(){
           Sr. Miau Meow
         </strong>
         <span>
-          gato fuxiqueiro
+          Gato Fuxiqueiro
         </span>
       </div>
 
