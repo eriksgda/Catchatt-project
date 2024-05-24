@@ -1,27 +1,42 @@
+import { format, formatDistanceToNow } from 'date-fns'
+import ptBR from 'date-fns/locale/pt-BR'
+
 import { Avatar } from '../Avatar/Avatar'
 import { Comments } from '../Comments/Comments'
 import s from './Post.module.css'
 
-export function Post(){
+export function Post({author, publishedAt, content }){
+  const publishedDate = format(publishedAt, "d 'de' LLLL 'às' HH:mm", {
+    locale: ptBR
+  })
+
+  const publishedDateTime = formatDistanceToNow(publishedAt, {
+    locale: ptBR,
+    addSuffix: true
+  })
+
   return(
     <article className={s.post}>
       <header>
         <div className={s.author}>
-          <Avatar src="https://i.pinimg.com/236x/97/af/77/97af774d991d6851e0d6b98e810b93b7.jpg"/>
+          <Avatar src={author.avatarUrl}/>
           <div className={s.authorInfo}>
-            <strong>Sr Miau Meow</strong>
-            <span>Gato Fuxiqueiro</span>
+            <strong>{author.name}</strong>
+            <span>{author.role}</span>
           </div>
 
         </div>
-        <time title='24 de maio de 2024'>Publicada há 1h</time>
+        <time title={publishedDate} dateTime={publishedAt.toISOString()}>{publishedDateTime}</time>
       </header>
 
       <div className={s.content}>
-        <p>Fala galeraa 👋</p>
-        <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
-        <p>👉 <a href="">jane.design/doctorcare</a></p>
-        <p><a href="">#novoprojeto</a> <a href="">#nlw</a> <a href="">#rocketseat</a></p>
+        {content.map(line => {
+          if (line.type === 'paragraph') {
+            return <p>{line.content}</p>
+          } else if (line.type === 'link') {
+            return <p><a href='#'>{line.content}</a></p>
+          }
+        })}
       </div>
 
       <form className={s.comments}>

@@ -11,7 +11,7 @@ export function Comments() {
         <div className={s.commentContent}>
           <header>
             <div className={s.authorAndTime}>
-              <strong>Diego Fernandes</strong>
+              <strong>Rei dos gatos</strong>
               <time title="24 de Maio de 2024">Cerca de 1h atrás</time>
             </div>
 
