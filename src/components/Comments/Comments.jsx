@@ -1,11 +1,18 @@
+import { useState } from 'react';
+
 import { LucideHandHeart, Trash2 } from 'lucide-react'
 import s from './Comments.module.css'
 import { Avatar } from '../Avatar/Avatar'
 
 export function Comments({content, onDeleteComment}) {
+  const [likeCount, setLikeCount] = useState(0);
 
   function handleDeleteComment(){
     onDeleteComment(content);
+  }
+
+  function handleLikeComment() {
+    setLikeCount(likeCount + 1);
   }
 
   return (
@@ -29,9 +36,12 @@ export function Comments({content, onDeleteComment}) {
         </div>
 
         <footer>
-          <button>
+          <button onClick={handleLikeComment}>
             <LucideHandHeart size={28} />
-            Aplaudir <span>20</span>
+            Curtir 
+            <span>
+              {likeCount}
+            </span>
           </button>
         </footer>
       </div>
