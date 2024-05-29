@@ -19,13 +19,13 @@ export function Comments({content, onDeleteComment}) {
 
   return (
     <div className={s.comment}>
-      <Avatar Border={false} src="https://i.pinimg.com/236x/97/af/77/97af774d991d6851e0d6b98e810b93b7.jpg" alt="" />
+      <Avatar Border={false} src="https://i.pinimg.com/236x/5a/7d/60/5a7d60172c3beca9d1a60ac1835f1513.jpg" alt="" />
 
       <div className={s.commentBox}>
         <div className={s.commentContent}>
           <header>
             <div className={s.authorAndTime}>
-              <strong>Rei dos gatos</strong>
+              <strong>Sr Miau Meow</strong>
               <time title="24 de Maio de 2024">Cerca de 1h atrás</time>
             </div>
 

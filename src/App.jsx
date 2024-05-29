@@ -10,29 +10,30 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego Fernandes',
-      role: 'CTO @Rocketseat'
+      avatarUrl: 'https://i.pinimg.com/474x/40/79/34/4079347620c8ff81fead54f5d5633a65.jpg',
+      name: 'Gato Interestelar 🙌',
+      role: 'Rh do ovni'
     },
+
     content: [
-      { type: 'paragraph', content: 'Fala galera 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'BLERGH.design/doctorcare' },
+      { type: 'paragraph', content: 'F̶͕͕̆̆a̶̙͗͊l̸̬̑̐a̴̖͠͝ ̴̛̯͍̄G̶̱̓̅a̴͍̅l̶̠̉͗ͅē̵̡r̸̳̅̅ȃ̵ͅ   👋' },
+      { type: 'paragraph', content: 'L̴̨͉̖̐̎͡ö̴̫̥̟̕ṙ̶͎͈͓͓͕̄ȇ̴̻̑̀̂͝m̸͍̖̦͋̈́͒̃ ̸̡͙̭͉͇̄͗i̴̼̖͎̟̤̓͑͗̓͐p̸͔̙͈͌͒͌̈̀s̵̨̻̦͈̠̒̑͘u̷̬̦̅̄̕m̸̧͔͐ ̵̖̯̟̠̅ͅd̷̡̡̢̼̰̎o̶̧̮͓͐̾̎̎͌ĺ̸͓̌̎o̴͙̺͒ŗ̶͎͎͙̩̏͝,̴̯̝͐ ̵͉̀s̷̫͆̂i̷̖͙͍̇̾͋̋t̶̹͇̠̞̪͌̉̚ ̶̩͍̝̃á̷͈͔̏̍̂͘m̷̡̮̥̳̉̆̀è̴̗̱̽͋̈̕ţ̶͙͙͎̹̃̂̂͗ ̴͍̌c̴̖̈́ȏ̸̞͍͐̊ṅ̶͚̮͉̆̈́̏͟͝s̵̰̰̄e̷̺̗̍͑̋c̵̪̿́̈́͐͡ṫ̵̛̠̻̞ȩ̵̗̍̃̈́̓̂t̵̪̹͉̕ù̵̲̹̳̈́̉ṙ̶͇ ̵̗̱͕̪̍͝a̷̢͙͕̓̆̍̿͡d̶͈̮͖͛̒͋̽̆ḯ̸͇̉p̴̝͗̔̕͝i̸̢̝͒s̸͔̒i̶͇̤̩͝c̶̗̖̲̪͎͛̓͝ȋ̸̞̎̈͟͝ň̵̰́͒̑͡g̶͙͌ ̵̙̮͑́͛é̸̲̺͚̝͂̿̕͜l̷̡̰͌͑i̷̧̱̙͝t̸͚̝̑͑̒͠.̴͖̳̋̒̏͘͠ ̷̗͎̤͌E̸̡̜͑̔͐͜͠ş̴̼͕͙͖̿͡s̸̾͑̚ͅȇ̸̢̖͎̟̀̀͒͘͟ ̶̗̭̠̦̅̏̄̽͗q̶͙̱̹̠̎̚͟ų̶̛̀̓̾͝ą̷̜̣͍̍̑̿̓̓ṃ̶̳̬̾́ ̴̹̻͓̺͑̎̃̋͜ḯ̷̡̖̼̓̎̆͝l̷̡̼̺̫͗͋͟l̷̮͈̫̿̉̈́̀̒u̴̩̺̅̕m̴̹͑̏̀̚͟,̷̧̛͎̯͓̊ ̸̨̟̫̼͐̿̌̆s̷̛̥̭̖͔̽͐͡ì̵̡̖̩̅̑̋͘m̷̻̚i̸̹̙̅̍̋l̸̡͎̲̞͘ͅi̷͈͓͎̝͖̾̓͛̕q̴̮̖̓̎̉u̸͎̤̠̬̭͐̎̓e̷̲͕̹͒͑͐̐͡ ̵̟̜̟̱̮̓͂̓͠ņ̸̳̺̗̇͝ư̵͍͇̥͚̕͜ḿ̸̹̗̫̥̮͒̅͊́q̸̣̼̣̋ͅu̷̧̼̻̻̤̓́̈̂̂ă̸̭͍̜͍͜m̵̡̢͎̫̾̾̄́͜͝,̶̪̅̄͒͐̓ ̵̮̱̰̤͊̃q̸͍̻̟̠̞̽ù̵̳̬͒̈́͜ợ̴̬̋͘s̸̰̔̎ ̶̤̳͇̥̟́́ṃ̶͈̌̈́̐͑a̵̢̳̮̻̾́̓̐i̵̡̙̣͇͟͠ǫ̴̞͓̽̚r̴͎̙̜̄͆͗͊͒e̴̢̪̳͉̖̊̐s̶̛̹̜̙̄̍́ ̶̼͑̓̊̀̕q̷̲̭̽̓ù̸̖̽̎ỉ̸͉͉͚̥̈́̌d̶̞͙̒͑e̴̙̝̅͗̚ṃ̸͖̘͉͖͋͛̓̕ ̶̠͎̽̇̀t̷̛͈̰͉͖͋̕͟ë̷̙̻͍́̍̽̕͠m̷͙̲̣͋̎̂̀͟p̵̪̕o̶̹̣̮̓͟͡r̸͓͔̞͕̎̍̈́̀̕e̸͈̼̽ ̵̘͍̳̣̉̐d̵̤͛͐͊̽͟o̸͓̾̍̃͝͡l̴̨͚̥͔͍̃̏o̵̩̥̺͗̎r̵̩̩͇͎͚̿̈́́̽͝e̸̢̡̮̝̒s̷̜͕͍̭̼͆͝ ̷̠̜̰̼̂̕s̶̡̞̖̮̓͟i̸̯̙̞̯̾̋͜t̵̛̜͕͙͖̪̎̍͛͠ ̵̨̤̭̰͒r̶͕̓̂̈ë̵͕͖́p̴͔̺̅̓͟ͅȩ̵̭͗̀l̵̿̏͜l̷̝̝̪͇̽̋̆͝ẻ̴̪̺̻͖̦̓̀n̶͕͔͎͗ḓ̶͉͕̙̆̍ű̴͎̳͚̏s̷̨͂̄ ̵̛̳̘͎̄̏̃̈́e̵̘͇̹̙̰͑l̸͈̰͛͡i̵̧̲̳̺̊̈́͝g̶̪̭̼̾̾̄͠e̴͚͓͋̔̕͟n̷̫̖͚͙̬͐̀͡d̴̻͖̻̝̦͋i̸̢̛͇̥̬̹̓̿̃ ̵̥̲̿̃o̷͍͖̐̿ḿ̸̠͎͎̠͓͗n̵̨͕̘̺̾̆̐̋î̶̳̬̖͐͘s̵̜̞̻͗͟.̶͉̙̓ ̷̩̝̩̙́̋̃̕͜M̶̨̩̉̾̈́̀ò̶̘̦͒̔̾͠d̵̦̈́͂͘͠ȋ̶̡̧̘̌̔͂͡ ̷̨̱̫̟͇̍̐ą̷̹̤̠̊̂̌̒d̵̹͙̖̾̌̄̚͡ ̷̨̤̟̺̼̓̃͝r̴̻͐͆͆̾͠e̵̛͎̱͈͕͛̚p̷̯̃͝e̸͖̠͎͕̓ḻ̶̼̔̅̐ͅͅl̷̛͔̳̈́͋̊͗͟a̷̙͙̯̣͊̒t̴̡̺̃̈́̇̒͑͟ ̵̦̟̞̲̎̈́̈́͗ṯ̶͔̏e̸̢̥̝̳͂́͜m̷̤̥̲̮̭̈́̍͆̅̚p̷̰͐̑͛͠ȍ̶̳̥͆̊͜r̷̘̬̪̘͜͡a̷̘͚̿ ̸̡̢̘̪̪͌͋̐̿ḏ̸͎̞̐͑̃͊̽ỉ̴̤͚g̸̛͔͚̭̼̉͗̄͝n̴̞͍̟͔̤̈i̵̺̝̻͐̽͝s̶̯̰̬̒͛̚ş̸̼͍̻̩̈͌į̷̗̠͓̺̀m̴̝͕͗͛͜ö̷̞́͌͋̓s̸̻̈́͛̀̅̾,̵̨͙͇͚̊ ̵̢̛̜̞͈́͆̄͂į̵̞̫̗̓͡n̷̳͋͆ṿ̷͔̣̭̮̌̅̉̊́ȩ̵̫͎̲̫͋͂n̸͆͜ͅt̶̠̲̟́̀̀͊͝ö̴͓͈͍̙̞́̈́͊͝r̷̦̙̣̄̂̈́̏̚e̷̢̙̖̘͂̽͂͒͟ ̵̢̡͑̂͡e̶̥̰̥̓̕͜͝r̴̻͉̊͂̑̔͘r̵̨̼̈͜ơ̸͓͗̅̑͝r̸̗̩̺͒͗̍̆͝ ̶̥̹̩̪͙͗̈́͑̐ę̷̘̝̼̐́̉͝x̶̤̹̯̓͌́͜ͅp̷͉̻̭̊́e̵̩̘̞̤͓͂̇̔̽̕d̶̥̝̼̃̈́͂͠ị̴̩̂ț̸̍̌̄ä̶̜̹͕̹̉͂?̶̧̰͍̭̬̈' },
+      { type: 'link', content: 'alien.com/ovnis' },
     ],
     publishedAt: new Date('2024-05-23 16:42:00'),
   },
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/maykbrito.png',
-      name: 'Mayk Brito',
-      role: 'Educator @Rocketseat'
+      avatarUrl: 'https://i.pinimg.com/236x/05/1f/56/051f56fe2124ea02a4862ca2be8f5e1a.jpg',
+      name: 'Cowboy Cat meow',
+      role: 'COWBOY.'
     },
     content: [
-      { type: 'paragraph', content: 'Fala galera 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+      { type: 'paragraph', content: '𝕱𝖆𝖑𝖆 𝕲𝖆𝖑𝖊𝖗𝖆 👋' },
+      { type: 'paragraph', content: '𝕸𝖔𝖓𝖙𝖆𝖉𝖔 𝖊𝖒 𝖒𝖊𝖚 𝖈𝖆𝖛𝖆𝖑𝖔 á𝖌𝖎𝖑, 𝖈𝖔𝖒 𝖒𝖊𝖚 𝖈𝖍𝖆𝖕é𝖚 𝖉𝖊 𝖆𝖇𝖆𝖘 𝖑𝖆𝖗𝖌𝖆𝖘 𝖊 𝖔𝖑𝖍𝖔𝖘 𝖙ã𝖔 𝖆𝖋𝖎𝖆𝖉𝖔𝖘 𝖖𝖚𝖆𝖓𝖙𝖔 𝖒𝖊𝖚 𝖑𝖆ç𝖔, 𝖈𝖆𝖛𝖆𝖑𝖌𝖔 𝖕𝖊𝖑𝖔𝖘 𝖛𝖆𝖘𝖙𝖔𝖘 𝖈𝖆𝖒𝖕𝖔𝖘 𝖉𝖔 𝖔𝖊𝖘𝖙𝖊 𝖘𝖊𝖑𝖛𝖆𝖌𝖊𝖒, 𝖔𝖓𝖉𝖊 𝖔 𝖘𝖔𝖑 𝖖𝖚𝖊𝖎𝖒𝖆 𝖋𝖔𝖗𝖙𝖊 𝖊 𝖔 𝖛𝖊𝖓𝖙𝖔 𝖘𝖚𝖘𝖘𝖚𝖗𝖗𝖆 𝖘𝖊𝖌𝖗𝖊𝖉𝖔𝖘 𝖆𝖓𝖙𝖎𝖌𝖔𝖘, 𝖕𝖔𝖎𝖘 𝖘𝖔𝖚 𝖔 𝖈𝖔𝖜𝖇𝖔𝖞 𝖌𝖆𝖙𝖔, 𝖉𝖊𝖘𝖙𝖊𝖒𝖎𝖉𝖔 𝖊 𝖊𝖑𝖊𝖌𝖆𝖓𝖙𝖊, 𝖕𝖗𝖔𝖓𝖙𝖔 𝖕𝖆𝖗𝖆 𝖊𝖓𝖋𝖗𝖊𝖓𝖙𝖆𝖗 𝖖𝖚𝖆𝖑𝖖𝖚𝖊𝖗 𝖉𝖊𝖘𝖆𝖋𝖎𝖔 𝖖𝖚𝖊 𝖔 𝖍𝖔𝖗𝖎𝖟𝖔𝖓𝖙𝖊 𝖛𝖆𝖘𝖙𝖔 𝖊 𝖘𝖊𝖒 𝖋𝖎𝖒 𝖕𝖔𝖘𝖘𝖆 𝖑𝖆𝖓ç𝖆𝖗 𝖊𝖒 𝖒𝖊𝖚 𝖈𝖆𝖒𝖎𝖓𝖍𝖔, 𝖕𝖔𝖎𝖘 𝖓𝖆𝖘 𝖒𝖎𝖓𝖍𝖆𝖘 𝖕𝖆𝖙𝖆𝖘 𝖊𝖘𝖙á 𝖆 𝖈𝖔𝖗𝖆𝖌𝖊𝖒 𝖉𝖔𝖘 𝖖𝖚𝖊 𝖉𝖊𝖘𝖇𝖗𝖆𝖛𝖆𝖒 𝖋𝖗𝖔𝖓𝖙𝖊𝖎𝖗𝖆𝖘 𝖊 𝖆 𝖆𝖘𝖙ú𝖈𝖎𝖆 𝖉𝖔𝖘 𝖖𝖚𝖊 𝖘𝖆𝖇𝖊𝖒 𝖑𝖊𝖗 𝖓𝖆𝖘 𝖊𝖓𝖙𝖗𝖊𝖑𝖎𝖓𝖍𝖆𝖘 𝖉𝖔 𝖉𝖊𝖘𝖙𝖎𝖓𝖔.' },
 
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'link', content: 'RODEIO.COM/gatos_tubaroes' },
     ],
     publishedAt: new Date('2024-05-20 23:58:05'),
   },
