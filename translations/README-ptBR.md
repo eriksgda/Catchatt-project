@@ -40,4 +40,4 @@ Este é um projeto que simula um website para postagens. Foi desenvolvido utiliz
 
 ## License
 
-Esse projeto está sob a licença [MIT](./LICENSE).
+Esse projeto está sob a licença [MIT](./../LICENSE).
